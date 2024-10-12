@@ -1,14 +1,12 @@
-import { Navigation } from 'components/Home/Navigation/Navigation';
 import { Suspense } from 'react';
 import { Outlet } from 'react-router-dom';
 import { Container } from './Layout.styled';
+import { Header } from 'components/Header/Header';
 
 export const Layout = () => {
   return (
     <>
-      <header>
-        <Navigation />
-      </header>
+      <Header />
       <main>
         <Container>
           <Suspense fallback={null}>
