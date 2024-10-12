@@ -1,5 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import { lazy } from 'react';
+import { Layout } from './Layout/Layout';
 
 const HomePage = lazy(() => import('../pages/HomePage'));
 const AboutPage = lazy(() => import('../pages/AboutPage'));
@@ -10,10 +11,12 @@ export const App = () => {
   return (
     <div>
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/about" element={<AboutPage />} />
-        <Route path="/portfolio" element={<PortfolioPage />} />
-        <Route path="/contacts" element={<ContactsPage />} />
+        <Route path="/" element={<Layout />}>
+          <Route index element={<HomePage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/portfolio" element={<PortfolioPage />} />
+          <Route path="/contacts" element={<ContactsPage />} />
+        </Route>
       </Routes>
     </div>
   );
