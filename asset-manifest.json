@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/anhelina-portfolio-new/static/css/main.7acaea2f.css",
-    "main.js": "/anhelina-portfolio-new/static/js/main.d39ba9f5.js",
+    "main.js": "/anhelina-portfolio-new/static/js/main.4eb78b9f.js",
     "static/js/983.47037bfd.chunk.js": "/anhelina-portfolio-new/static/js/983.47037bfd.chunk.js",
     "static/js/902.943ff14e.chunk.js": "/anhelina-portfolio-new/static/js/902.943ff14e.chunk.js",
     "static/js/542.a2cd51c1.chunk.js": "/anhelina-portfolio-new/static/js/542.a2cd51c1.chunk.js",
     "static/js/246.05d726c8.chunk.js": "/anhelina-portfolio-new/static/js/246.05d726c8.chunk.js",
     "index.html": "/anhelina-portfolio-new/index.html",
     "main.7acaea2f.css.map": "/anhelina-portfolio-new/static/css/main.7acaea2f.css.map",
-    "main.d39ba9f5.js.map": "/anhelina-portfolio-new/static/js/main.d39ba9f5.js.map",
+    "main.4eb78b9f.js.map": "/anhelina-portfolio-new/static/js/main.4eb78b9f.js.map",
     "983.47037bfd.chunk.js.map": "/anhelina-portfolio-new/static/js/983.47037bfd.chunk.js.map",
     "902.943ff14e.chunk.js.map": "/anhelina-portfolio-new/static/js/902.943ff14e.chunk.js.map",
     "542.a2cd51c1.chunk.js.map": "/anhelina-portfolio-new/static/js/542.a2cd51c1.chunk.js.map",
@@ -16,6 +16,6 @@
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.d39ba9f5.js"
+    "static/js/main.4eb78b9f.js"
   ]
 }
