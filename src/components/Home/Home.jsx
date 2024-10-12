@@ -1,3 +1,9 @@
+import { Socials } from './Socials/Socials';
+
 export const Home = () => {
-  return <div>Home</div>;
+  return (
+    <div>
+      <Socials />
+    </div>
+  );
 };
